@@ -12,6 +12,9 @@ env:
   VERSION: ${{ github.sha }}
   NAME: go_cicd
 
+env:
+  ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION: true
+
 jobs:
   # 빌드 job
   build:
