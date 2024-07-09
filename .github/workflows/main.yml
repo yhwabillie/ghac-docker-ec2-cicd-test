@@ -1,10 +1,6 @@
 # github repository actions 페이지에 나타날 이름
 name: CI/CD using github actions & docker
 
-runs:
-  using: "node20"
-  main: "main.js"
-
 # 트리거를 수행할 브랜치 지정
 on:
   push:
